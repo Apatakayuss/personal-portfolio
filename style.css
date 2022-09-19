@@ -13,8 +13,6 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: greenyellow;
-    
 }
 .logo{
     width: 9%;
@@ -96,6 +94,7 @@ a:hover{
     width: 100%;
     height: 100%;
     border: 3px solid #0098D8; 
+    
 }
 .square-2 img{
     width: 90%;
