@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Lexend Deca', sans-serif;
+    
+    font-family: 'Nunito', sans-serif;
+    
     scroll-behavior: smooth;
     background-color: rgb(247,251,253);
 }
@@ -26,6 +28,13 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.hamburger .bar{
+    background-color: green;
+    width: 25px;
+    height: 3px;
+    margin: 4px 0;
+    display: none;
 }
 ul{
     display: flex;
@@ -101,6 +110,39 @@ a:hover{
     height: 90%;
 }
 
+@media screen and (max-width: 400px){
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .hamburger .bar{
+        display: block;
+        transition: .2 all;
+    }
+    
+    .logo{
+        width: 20%;
+    }
+    nav ul{
+        display: none;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 100vh;
+    }
+    .text, .avatar{
+        width: 100%;
+        padding: 0;
+        height: 50%;
+    }
+    .btn img{
+        display: none;
+    }
+
+}
 
 /* SERVICES */
 .services{
@@ -118,4 +160,17 @@ a:hover{
     margin: auto;
     box-shadow: 10px 10px 5px #e1e6e9 inset;
     padding: 20px;
+}
+
+
+
+@media screen and (max-width: 400px){
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-1, .card-2, .card-3{
+        width: 90%;
+        margin: 20px 0;
+    }
 }
