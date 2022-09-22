@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
     font-family: 'Nunito', sans-serif;
-    
     scroll-behavior: smooth;
+}
+body{
     background-color: rgb(247,251,253);
 }
 nav{
@@ -148,12 +148,14 @@ a:hover{
 .services{
     width: 80%;
     margin: auto;
+    padding: 70px 0;
 }
 .services h1, .services h3{
     text-align: center;
 }
 .cards{
     display: flex;
+    flex-wrap: wrap;
 }
 .card-1, .card-2, .card-3{
     width: 25%;
@@ -173,4 +175,85 @@ a:hover{
         width: 90%;
         margin: 20px 0;
     }
+}
+
+
+
+.project-section{
+    background-color: #0098D8;
+    padding: 80px;
+    max-width: 100vw;
+}
+.project-section h1, .project-section h2 {
+   text-align: center;
+}
+.project-tile{
+    display: flex;
+    width: 100%;
+}
+.tile-1, .tile-2, .tile-3{
+    width: 30%;
+    margin: 20px;
+    
+}
+.tile-1 img, .tile-2 img, .tile-3 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.project-section input{
+    padding: 8px 20px;
+    border: none;
+    font-size: 1rem;
+    background-color: #AADDF2;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.project-section input:hover{
+    background-color: #aadcf2a1;
+    box-shadow:  2px 2px #aadcf2;
+}
+
+
+
+
+
+/*About Section */
+
+.About{
+    display: flex;
+    flex-direction: row;
+    
+}
+.About .profile-image{
+    width: 35%;
+    padding: 7% 5% 5% 5%;
+}
+.About .profile-image img{
+    width: 100%;
+    height: 100%;
+}
+.profile{
+    padding: 5% 5% 0 0;
+}
+#skills{
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+}
+#skills span{
+    margin: 15px 0;
+}
+#skills span label{
+    font-weight: bold;
+}
+progress{
+    width: 40%;
+}
+
+ hr{
+    margin: 30px;
+    width: 90%;
 }
