@@ -237,6 +237,7 @@ a:hover{
 }
 .profile{
     padding: 5% 5% 0 0;
+   
 }
 #skills{
     padding-top: 3%;
@@ -251,6 +252,8 @@ a:hover{
 }
 progress{
     width: 40%;
+    height: 15px;
+    accent-color: #0098D8;
 }
 
  hr{
