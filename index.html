@@ -30,10 +30,10 @@
         <div class="nav-menu">
             <ul>
                 <li class="nav-list"><a href="#welcome-section">Home</a></li>
-                <li class="nav-list"><a href="">Services</a></li>
-                <li class="nav-list"><a href="">Portfolio</a></li>
-                <li class="nav-list"><a href="">About</a></li>
-                <li class="nav-list"><a href="">Contact Me</a></li>
+                <li class="nav-list"><a href="#services">Services</a></li>
+                <li class="nav-list"><a href="#projects">Portfolio</a></li>
+                <li class="nav-list"><a href="#about-me">About</a></li>
+                <li class="nav-list"><a href="#contact-me">Contact Me</a></li>
             </ul>
         </div>
     </nav>
@@ -62,7 +62,7 @@
             </div>
         </div>
 
-        <div class="services">
+        <div class="services" id="services">
             <hr style="color: #0098D8;">
             <h1 style="padding-top: 50px;">My Services</h1>
             <h3 style="padding: 15px 0 30px 0; color: #0098D8">What I offer</h3>
@@ -70,42 +70,45 @@
             <div class="cards">
                 <div class="card-1">
                     <div class="image">
-                        <img src="" alt="">
+                        <img src="Vector1.png" alt="">
+                        <h2 style="margin: 10px 0;">HTML</h2>
                     </div>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur eligendi libero illum earum
                         qui veniam quisquam nihil ab, laudantium, eos eum assumenda labore. Amet, quibusdam?</p>
                 </div>
                 <div class="card-1">
                     <div class="image">
-                        <img src="" alt="">
+                        <img src="Vector.png" alt="">
+                        <h2 style="margin: 10px 0;">CSS</h2>
                     </div>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur eligendi libero illum earum
                         qui veniam quisquam nihil ab, laudantium, eos eum assumenda labore. Amet, quibusdam?</p>
                 </div>
                 <div class="card-1">
                     <div class="image">
-                        <img src="" alt="">
+                        <img src="Vector2.png" alt="">
+                        <h2 style="margin: 10px 0;">Javascript</h2>
                     </div>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur eligendi libero illum earum
                         qui veniam quisquam nihil ab, laudantium, eos eum assumenda labore. Amet, quibusdam?</p>
                 </div>
             </div>
         </div>
-        <div class="project-section">
+        <div class="project-section" id="projects">
 
             <h1>Portfolio</h1>
-            <h2>My recent works</h2>
+            <h2 style="color: #fff;">My recent works</h2>
 
             <div class="project-tile">
-                <div class="tile-1" style="padding-top: 20px;"><img src="Survey.PNG" alt=""></div>
-                <div class="tile-2" style="width: 31%"><img src="Zuri Website.PNG" alt=""></div>
-                <div class="tile-3" style="padding-top: 20px;"><img src="mPharmaa.PNG" alt=""></div>
+                <div class="tile-1" style="padding-top: 20px;"><a href="https://apatakayuss.github.io/Survey-form/"><img src="Survey.PNG" alt=""></a></div>
+                <div class="tile-2" style="width: 31%"><a href="https://apatakayuss.github.io/zuri-website-clone/"><img src="Zuri Website.PNG" alt=""></a></div>
+                <div class="tile-3" style="padding-top: 20px;"><a href="https://apatakayuss.github.io/mPharma/"><img src="mPharmaa.PNG" alt=""></a></div>
             </div>
             <input type="submit" value="See More">
         </div>
 
 
-        <div class="About">
+        <div class="About" id="about-me">
             <div class="profile-image">
                 <img src="Avatar for portfolio.png" alt="">
             </div>
@@ -154,7 +157,7 @@
         </div>
         <hr>
 
-        <div class="contact">
+        <div class="contact" id="contact-me">
             <div class="text">
                 <h1>Contact Me</h1>
                 <h3 style="color: #0098D8; margin: 10px 0">Connect with me</h3>
@@ -173,7 +176,7 @@
                 </div>
 
                 <div class="socials">
-                    <span><a href="gmail.com/apatakayuss">
+                    <span><a id="profile-link" href="gmail.com/apatakayuss" target="_blank">
                             <div class="social">
                                 <img src="Gmail.png" alt="">
                             </div>
@@ -181,7 +184,7 @@
                         </a>
                     </span>
 
-                    <span><a href="https://github.com/Apatakayuss">
+                    <span><a id="profile-link" href="https://github.com/Apatakayuss" target="_blank">
                             <div class="social">
                                 <img src="GitHub.png" alt="">
                             </div>
@@ -189,7 +192,7 @@
                         </a>
                     </span>
 
-                    <span><a href="https://twitter.com/OfficialApata">
+                    <span><a id="profile-link" href="https://twitter.com/OfficialApata" target="_blank">
                             <div class="social">
                                 <img src="Twitter.png" alt="">
                             </div>
@@ -197,7 +200,7 @@
                         </a>
                     </span>
 
-                    <span><a href="https://www.linkedin.com/in/abdulazeez-apata-5481a5118">
+                    <span><a id="profile-link" href="https://www.linkedin.com/in/abdulazeez-apata-5481a5118" target="_blank">
                             <div class="social">
                                 <img src="LinkedIn.png" alt="">
                             </div>
@@ -207,23 +210,19 @@
                 </div>
             </div>
         </div>
-        <hr>
+        <hr style="margin-bottom: 0;">
 
 
         <footer>
-            <div class="logo" id="logo"><img src="logo for portfolio.png" alt=""></div>
-        <div class="hamburger">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </div>
+            <div class="logo" id="logo"><img src="logo for portfolio.png" alt="" href="welcome-section"></div>
+       
         <div class="nav-menu">
             <ul>
                 <li class="nav-list"><a href="#welcome-section">Home</a></li>
-                <li class="nav-list"><a href="">Services</a></li>
-                <li class="nav-list"><a href="">Portfolio</a></li>
-                <li class="nav-list"><a href="">About</a></li>
-                <li class="nav-list"><a href="">Contact Me</a></li>
+                <li class="nav-list"><a href="#services">Services</a></li>
+                <li class="nav-list"><a href="#project-sectionn">Portfolio</a></li>
+                <li class="nav-list"><a href="#about-me">About</a></li>
+                <li class="nav-list"><a href="#contact-me">Contact Me</a></li>
             </ul>
         </div>
         </footer>
