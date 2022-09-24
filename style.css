@@ -15,7 +15,6 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
 }
 .logo{
     width: 9%;
