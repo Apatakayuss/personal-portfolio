@@ -517,6 +517,7 @@ hr{
         background-color: #0098D8;
         margin: 6px 0;
         transition: 0.4s;
+        cursor: pointer;
       }
       
       .open .bar1 {
@@ -538,7 +539,7 @@ hr{
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        background-color: rgba(0, 0, 0, 0.473);
+        background-color: rgba(0, 0, 0, 0.932);
         height: fit-content;
       }
       
