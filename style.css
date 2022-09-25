@@ -176,10 +176,15 @@ a:hover{
 .services{
     width: 80%;
     margin: auto;
-    padding: 70px 0;
+    padding: 5px 0 40px 0;
 }
-.services h1, .services h3{
+.services h1 {
     text-align: center;
+    padding-top: 20px;
+}
+.services h3{
+    text-align: center;
+    padding: 15px 0 30px 0; color: #0098D8;
 }
 .cards{
     display: flex;
@@ -203,16 +208,28 @@ a:hover{
 
 
 @media screen and (max-width: 600px){
+    .services hr{
+        margin: 20px auto;
+        width: 100%;
+    }
+    .services{
+        padding: 0;
+    }
+    .services h1{
+        padding-top: 10px;
+    }
     .cards{
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0;
     }
-    .card-1, .card-2, .card-3{
+    .card-1{
         width: 90%;
         margin: 20px 0;
     }
-}
 
+}
 
 
 .project-section{
