@@ -510,6 +510,10 @@ hr{
         cursor: pointer;
         background: rgb(247,251,253);
       }
+      #hamburger-icon a{
+        color:#0098D8;
+        font-weight: 530;
+      }
       
       #hamburger-icon div {
         width: 35px;
@@ -539,8 +543,12 @@ hr{
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        background-color: rgba(0, 0, 0, 0.932);
+        background-color:#d0edfa;
         height: fit-content;
+        width: 150%;
+        position: relative;
+        float: right;
+        border-radius: 15px 0 0 15px;
       }
       
       .mobile-menu {
