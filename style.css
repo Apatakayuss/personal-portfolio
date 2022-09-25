@@ -278,7 +278,9 @@ a:hover{
 .About{
     display: flex;
     flex-direction: row;
-    
+}
+.About h3{
+    color: #0098D8;
 }
 .About .profile-image{
     width: 35%;
@@ -307,6 +309,50 @@ progress{
     width: 40%;
     height: 15px;
     accent-color: #0098D8;
+}
+#text-area-mobile{
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .About .profile-image{
+        display: none;
+        width: 100%;
+    }
+    .About{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .contact-body{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-body .input{
+        width: 100%;
+        /* padding: 8px 80px; */
+    }
+    #text-area-desktop{
+        display: none;
+    }
+    #text-area-mobile{
+        display: block;
+    }
+    #footer-line{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+    footer .nav-menu{
+        display: none;
+    }
+    footer .logo{
+        display: none;
+    }
+    .socials{
+        margin-left: 12px;
+    }
+    
 }
 
 /* CONTACT ME SECTION */
