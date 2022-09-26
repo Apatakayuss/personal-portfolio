@@ -262,12 +262,12 @@ a:hover{
     width: 29%;
     margin: 20px;
 }
-.drop{
+.list{
     display: flex;
     position: absolute;
     transform: scaleY(0);
 }
-.newDrop{
+.newList{
     transform: scaleY(1);
 }
 .tile-1 img, .tile-2 img, .tile-3 img{

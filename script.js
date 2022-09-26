@@ -3,10 +3,10 @@ function toggleMobileMenu(menu) {
 }
 
 let click = document.querySelector('.click')
-let drop = document.querySelector('.drop')
-let newDrop = document.querySelector('.newDrop')
-seeMore.addEventListener("seeMore", () =>{
-    drop.classList.toggle('newDrop');
+let list = document.querySelector('.list')
+// let newDrop = document.querySelector('.newDrop')
+seeMore.addEventListener("click", () => {
+    drop.classList.toggle('newList');
 });
 
 console.log(newDrop);
