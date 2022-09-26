@@ -255,12 +255,20 @@ a:hover{
 }
 .project-tile{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
 }
 .tile-1, .tile-2, .tile-3{
-    width: 30%;
+    width: 29%;
     margin: 20px;
-    
+}
+.drop{
+    display: flex;
+    position: absolute;
+    transform: scaleY(0);
+}
+.newDrop{
+    transform: scaleY(1);
 }
 .tile-1 img, .tile-2 img, .tile-3 img{
     width: 100%;
