@@ -79,6 +79,22 @@ a:hover{
     width: 50%;
     padding-top: 8%;
 }
+/* #abdul{
+    white-space: no-wrap;
+    overflow: hidden;
+    border-right: 3px solid rgba(0, 255, 0, .75);
+    color:rgba(255, 255, 255, .70);
+    animation: animated-text 4a steps(16) 1s 1 normal both, animated-cursor 500ms step(16) infinite normal;
+}
+@keyframes animated-text{
+    from{width: 0;}
+    to{width: 300px;}
+}
+@keyframes animated-cursor{
+    from{border-right-color: rgba(255, 255, 255, .70);}
+    from{border-right-color: transparent;}
+} */
+
 .btn{
     margin-top: 15px;
 }
